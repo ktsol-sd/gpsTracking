@@ -58,9 +58,6 @@ App_Data/
 # Ignore user secrets
 secrets.json
 
-# Ignore dotnet watch settings
-**/Properties/launchSettings.json
-
 # Docker ignore (just in case)
 .dockerignore
 .vs
