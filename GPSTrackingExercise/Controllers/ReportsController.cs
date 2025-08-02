@@ -22,7 +22,7 @@ namespace GPSTrackingExercise.Controllers
             return Ok(result);
         }
 
-        [HttpGet("route")]
+        [HttpGet("routes")]
         public async Task<IActionResult> GetRouteByVehicle([FromQuery] int vehicleId, [FromQuery] DateTime fromTime, [FromQuery] DateTime toTime)
         {
             var result = await _reportService.GetRouteDetailsAsync(vehicleId, fromTime, toTime);
